@@ -1,0 +1,12 @@
+#AccountCreatedCard {
+    /* Initially doing 100% without 'VH' as a fallback for older browsers */
+    min-height: 100%;
+    /* Sets the viewport height to be 100% */
+    min-height: 100vh;
+    /* Do Flex */
+    display: flex;
+    /* Align Items Center */
+    align-items: center;
+    /* Align Content Center */
+    justify-content: center;
+}

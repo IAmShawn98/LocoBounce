@@ -1,0 +1,131 @@
+@media only screen and (min-width:320px) and (max-width:481px) {
+    #ImageSlide {
+        position: fixed;
+        width: 100vw;
+        height: 100vh !important;
+        z-index: -9999;
+    }
+    #CreateForm {
+        position: fixed;
+        top: 110px;
+        width: 100%;
+        height: 100%;
+    }
+    .alert-danger {
+        color: #721c24;
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+        margin: 0;
+    }
+    .nav-link {
+        width: 100%;
+        font-size: 75%;
+    }
+    ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        font-size: 65%;
+    }
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: pink !important;
+    }
+    :-ms-input-placeholder {
+        /* IE 10+ */
+        color: pink !important;
+    }
+    :-moz-placeholder {
+        /* Firefox 18- */
+        color: pink !important;
+    }
+    #btnRemoveAlert {
+        font-size: 200%;
+        background: none;
+        border: none;
+        margin-top: -8px;
+    }
+    .cityScape, .img-fluid {
+        filter: brightness(30%);
+        width: 100vh;
+        height: 100vh;
+    }
+    #appDescribe {
+        position: fixed;
+        bottom: 70px;
+        margin: 12px;
+        left: 10px;
+        font-size: 115%;
+    }
+    /* Slogan */
+    #relocating {
+        position: fixed;
+        top: 78px;
+        right: 200px;
+        font-size: 200%;
+        color: #01befe;
+    }
+    #easy {
+        position: fixed;
+        top: 78px;
+        right: 35px;
+        font-size: 200%;
+        color: #51b151;
+    }
+    #Loco {
+        position: relative;
+        bottom: 44vh;
+        right: 62px;
+        color: #d4583c;
+        font-size: 70%;
+    }
+    #Bounce {
+        position: relative;
+        bottom: 56.3vh;
+        left: 66px;
+        color: #6a70f3;
+        font-size: 70%;
+    }
+    #LocoBall {
+        position: relative;
+        bottom: 43.3vh;
+        left: -76px;
+        width: 17%;
+        height: 10%;
+    }
+    #AccountForm {
+        /* Initially doing 100% without 'VH' as a fallback for older browsers */
+        min-height: 30%;
+        /* Sets the viewport height to be 100% */
+        min-height: 30vh;
+        /* Do Flex */
+        display: flex;
+        /* Align Items Center */
+        align-items: center;
+        /* Align Content Center */
+        justify-content: center;
+    }
+    .btn-nitany {
+        background-color: #162953!important;
+        color: #fff;
+        transition: 2s;
+    }
+    .btn-nitany:hover {
+        background-color: #6610f2!important;
+        color: #fff;
+        transition: 1s;
+    }
+    #aboutLocoBounce {
+        font-size: 50%;
+        position: absolute;
+        bottom: 120px;
+        width: 110%;
+    }
+    #footer {
+        position: fixed;
+        left: -68px;
+        width: 150%;
+        bottom: 28px;
+        font-size: 70%;
+        color: #ffffff;
+        border: none !important;
+    }
+}

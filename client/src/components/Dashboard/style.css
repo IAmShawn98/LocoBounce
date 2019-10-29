@@ -1,0 +1,88 @@
+#DashNav {
+    background-color: #162953 !important;
+    box-shadow: 8px 8px 8px #69696969;
+    border: 2px solid #5a70f3;
+}
+
+.sidebar {
+    position: fixed;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 100% 100%, 91% 100%, 49% 85%, 8% 100%, 0 100%, 0% 35%, 0 0);
+    height: 100%;
+    background-color: #001953 !important;
+    border-left: 2px solid #5a70f3;
+    border-right: 2px solid #5a70f3;
+}
+
+#EndSessionProgress {
+    font-size: 300%;
+}
+
+#BtnSignOut {
+    position: relative;
+    background-color: #6a70f3;
+    clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+    color: #ffffff !important;
+    font-size: 140%;
+    margin-right: -16px;
+    transition: 1s;
+}
+
+#BtnSignOut:hover {
+    position: relative;
+    background-color: #9a80f3;
+    clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+    color: #ffffff !important;
+    font-size: 140%;
+    margin-right: -16px;
+    transition: 2s;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    font-size: 150%;
+    text-align: center !important;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: 1s;
+    color: #ffffff;
+    width: 100%;
+}
+
+td:hover {
+    font-size: 150%;
+    text-align: center !important;
+    padding-bottom: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#FilterWidgetData {
+    background: none;
+    border: 1px solid #6a70f3;
+    color: #9a80f3;
+}
+
+#fa-filter-icon {
+    background: none;
+    border: 1px solid #9a80f3;
+    color: #ffffff;
+}
+#WidgetsTable {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#FilterWidgetData::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    text-align: center;
+    color: #5a70f3 !important;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none !important;
+}
