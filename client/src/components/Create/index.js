@@ -91,11 +91,11 @@ class Create extends Component {
                           <h1 className="display-4"><span id="Loco">Loco</span> <img className="animated bounce" id="LocoBall" src="https://github.com/PWFollett/LocoBounce-/blob/master/client/src/assets/images/locoBall.png?raw=true" alt="locoBall.png" /> <span id="Bounce">Bounce</span></h1>
                           <p><span className="mr-2" id="relocating">Relocating</span>  <span id="easy">Made Easy</span></p>
                           <h2 id="appDescribe">
-                            LocoBounce is an app for people looking to relocate to any city all around the world!
+                            LocoBounce is an app for people looking to relocate to any city all around the world.
                             We have a dataset including a wide variety of tools and statistics that are essential
-                            to know before taking your next big trip. Wether you need to know the cost of living
-                            in your city of interest, or average cost of a hotel or apartment is, LocoBounce
-                            is an all-in-one solution to assist you in your next big adventure!
+                            to know before taking your next big trip. Whether you need to know the cost of living
+                             your city of interest, or the average cost of a hotel or apartment, LocoBounce is an
+                             all-in-one solution to assist you in your next big adventure!
                            </h2>
                         </blockquote>
                       </div>
@@ -107,11 +107,11 @@ class Create extends Component {
                           <h1 className="display-4"><span id="Loco">Loco</span> <img className="animated bounce" id="LocoBall" src="https://github.com/PWFollett/LocoBounce-/blob/master/client/src/assets/images/locoBall.png?raw=true" alt="locoBall.png" /> <span id="Bounce">Bounce</span></h1>
                           <p><span className="mr-2" id="relocating">Relocating</span>  <span id="easy">Made Easy</span></p>
                           <h2 id="appDescribe">
-                            LocoBounce is an app for people looking to relocate to any city all around the world!
-                            We have a dataset including a wide variety of tools and statistics that are essential
-                            to know before taking your next big trip. Wether you need to know the cost of living
-                            in your city of interest, or average cost of a hotel or apartment is, LocoBounce
-                            is an all-in-one solution to assist you in your next big adventure!
+                            LocoBounce is an app for people looking to relocate to any city all around the world.
+                              We have a dataset including a wide variety of tools and statistics that are essential
+                              to know before taking your next big trip. Whether you need to know the cost of living
+                               your city of interest, or the average cost of a hotel or apartment, LocoBounce is an
+                               all-in-one solution to assist you in your next big adventure!
                            </h2>
                         </blockquote>
                       </div>
@@ -123,11 +123,11 @@ class Create extends Component {
                           <h1 className="display-4"><span id="Loco">Loco</span> <img className="animated bounce" id="LocoBall" src="https://github.com/PWFollett/LocoBounce-/blob/master/client/src/assets/images/locoBall.png?raw=true" alt="locoBall.png" /> <span id="Bounce">Bounce</span></h1>
                           <p><span className="mr-2" id="relocating">Relocating</span>  <span id="easy">Made Easy</span></p>
                           <h2 id="appDescribe">
-                            LocoBounce is an app for people looking to relocate to any city all around the world!
-                            We have a dataset including a wide variety of tools and statistics that are essential
-                            to know before taking your next big trip. Wether you need to know the cost of living
-                            in your city of interest, or average cost of a hotel or apartment is, LocoBounce
-                            is an all-in-one solution to assist you in your next big adventure!
+                            LocoBounce is an app for people looking to relocate to any city all around the world.
+                              We have a dataset including a wide variety of tools and statistics that are essential
+                              to know before taking your next big trip. Whether you need to know the cost of living
+                               your city of interest, or the average cost of a hotel or apartment, LocoBounce is an
+                               all-in-one solution to assist you in your next big adventure!
                            </h2>
                         </blockquote>
                       </div>
