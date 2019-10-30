@@ -158,7 +158,7 @@ class Create extends Component {
                           <Link class="nav-link" href="#" to="/login"><i class="fa fa-key" aria-hidden="true"></i> Sign In</Link>
                         </Tab>
                         <Tab>
-                          <Link class="nav-link" href="#" to="/signup"><i class="fa fa-users" aria-hidden="true"></i> Sign In</Link>
+                          <Link class="nav-link" href="#" to="/signup"><i class="fa fa-users" aria-hidden="true"></i> Register An Account</Link>
                         </Tab>
                       </TabList>
                       <TabPanel>
