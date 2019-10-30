@@ -3,9 +3,8 @@ import { withRouter, Link, Switch, Route } from 'react-router-dom';
 import React from 'react';
 import './style.css';
 import './SearchFilter';
-import Teleport from '../Teleport/index';
 
-function Dashboard(props) {
+function Dashboard() {
     return (
         <>
             <nav id="DashNav" class="navbar navbar-dark bg-dark flex-md-nowrap p-0">
@@ -73,14 +72,43 @@ function Dashboard(props) {
 
                     <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
                         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                            <h1>Getting Started</h1>
+                            <h1>Getting Started | Our Services</h1>
                         </div>
                     </main>
                 </div>
-                <div className="container">
-                    {/* <div id="GettingStarted">
-                        <h1>WOOWO</h1>
-                    </div> */}
+                <div id="GettingStarted" className="container">
+                    <div class="animated fadeIn slow card border-primary">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img id="ImgRelocationTools" src="../../../assets/images/RelocationTools.png" class="card-img" alt="RelocationTools.png" />
+                            </div>
+                            <div class="col-md-6 p-0 m-0">
+                                <div class="card-body">
+                                    <h4 class="card-title text-primary">Relocation Tools</h4>
+                                    <p class="card-text lead">
+                                        This dataset includes a wide variety of tools
+                                        and useful information for any traveler such
+                                        as:
+                                    </p>
+                                    <ul>
+                                        <li>Cost of Living Resources</li>
+                                        <li>General Safety Information</li>
+                                        <li>Education Quality</li>
+                                        <li>And more!</li>
+                                    </ul>
+                                    <p>
+                                        Simply search or click on any
+                                        of the tools in the sidebar
+                                        under 'LocoBounce Relocation
+                                        Tools' to start browsing
+                                        the latest city
+                                        information,
+                                        any time!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

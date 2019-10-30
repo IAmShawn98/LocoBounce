@@ -40,12 +40,12 @@ export default class App extends Component {
               <Switch>
                 <Route path="/Safety" exact render={() => <Teleport src="https://teleport.org/cities/philadelphia/widget/crime/?currency=USD" />} />
                 <Route path="/Salaries" exact render={() => <Teleport src="https://teleport.org/cities/pittsburgh/widget/salaries/?currency=USD" />} />
-                <Route path="/Startups" exact render={() => <Teleport src="https://teleport.org/cities/philadelphia/widget/startup/?currency=USD" />} />
-                <Route path="/Lgbt" exact render={() => <Teleport src="https://teleport.org/cities/philadelphia/widget/tolerance/?currency=USD" />} />
-                <Route path="/Education" exact render={() => <Teleport src="https://teleport.org/cities/philadelphia/widget/education/?currency=USD" />} />
-                <Route path="/Cost" exact render={() => <Teleport src="https://teleport.org/cities/philadelphia/widget/costs/?currency=USD" />} />
-                <Route path="/Climate" exact render={() => <Teleport src="https://teleport.org/cities/philadelphia/widget/weather/?currency=USD" />} />
-                <Route path="/Qaulity" exact render={() => <Teleport src="https://teleport.org/cities/philadelphia/widget/scores/?currency=USD" />} />
+                <Route path="/Startups" exact render={() => <Teleport src="https://teleport.org/cities/nice/widget/startup/?currency=USD" />} />
+                <Route path="/Lgbt" exact render={() => <Teleport src="https://teleport.org/cities/bangkok/widget/tolerance/?currency=USD" />} />
+                <Route path="/Education" exact render={() => <Teleport src="https://teleport.org/cities/dubai/widget/education/?currency=USD" />} />
+                <Route path="/Cost" exact render={() => <Teleport src="https://teleport.org/cities/london/widget/costs/?currency=USD" />} />
+                <Route path="/Climate" exact render={() => <Teleport src="https://teleport.org/cities/singapore/widget/weather/?currency=USD" />} />
+                <Route path="/Qaulity" exact render={() => <Teleport src="https://teleport.org/cities/tokyo/widget/scores/?currency=USD" />} />
               </Switch>
             </Fragment>
           </Router>

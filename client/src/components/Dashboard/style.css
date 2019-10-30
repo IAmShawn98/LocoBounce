@@ -72,15 +72,36 @@ td:hover {
     border: 1px solid #9a80f3;
     color: #ffffff;
 }
+
 #WidgetsTable {
     padding: 0 !important;
     margin: 0 !important;
 }
+
 #FilterWidgetData::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     text-align: center;
     color: #5a70f3 !important;
     font-weight: bold;
+}
+
+#GettingStarted {
+    /* Initially doing 100% without 'VH' as a fallback for older browsers */
+    min-height: 70%;
+    /* Sets the viewport height to be 100% */
+    min-height: 70vh;
+    /* Do Flex */
+    display: flex;
+    width: 50%;
+    /* Align Items Center */
+    align-items: center;
+    /* Align Content Center */
+    justify-content: center;
+}
+
+#ImgRelocationTools {
+    height: 100%;
+    border-right: 1px solid #017bff;
 }
 
 a {
